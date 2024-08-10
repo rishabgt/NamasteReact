@@ -1,6 +1,6 @@
-##Namaste React
+## Namaste React
 
-#Parcel
+# Parcel
 
 - Command: 'npx parcel index.html'
 - Dev Build
