@@ -1,15 +1,10 @@
-/*
- *<div id="parent">
- *  <div id="child">
- *      <h1>Nested</h1>
- * </div>
- *</div>
- */
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const heading = React.createElement(
   "h1",
   { id: "heading" },
-  "Hello from react!"
+  "Hello from Namaste React!"
 );
 const child = React.createElement("div", { id: "child" }, [heading, heading]);
 const parent = React.createElement("div", { id: "parent" }, child);

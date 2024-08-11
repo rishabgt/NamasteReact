@@ -2,7 +2,8 @@
 
 # Parcel
 
-- Command: 'npx parcel index.html'
+- Command: 'npx parcel index.html' for dev
+- Command: 'npx parcel build index.html' for prod
 - Dev Build
 - Hosts a local server
 - HMR = Hot Module Replacement
@@ -12,3 +13,11 @@
 - Minification
 - Bundle
 - Compress
+- Consistent Hashing
+- Code splitting
+- Differential Bundling - support older browsers
+- Error Handling
+- Supports HTTPs
+- Diagnostic
+- Tree Shaking - remove unused codes
+- Different dev and prod builds
