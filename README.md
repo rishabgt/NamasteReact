@@ -21,3 +21,20 @@
 - Diagnostic
 - Tree Shaking - remove unused codes
 - Different dev and prod builds
+
+/*
+*Header
+  - Logo
+  - NavItems
+*Body
+  - Search
+  - RestaurantContainer
+    - RestaurantCard 
+      - Image
+      - Name, Star rating, Cuisines, Delivery Time
+*Footer
+  - Copyright
+  - Links
+  - Address
+  - Contact
+*/
