@@ -53,3 +53,12 @@
     flex-wrap: wrap;
     margin: 5px;
 }
+
+.btn-filter{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
