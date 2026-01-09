@@ -22,19 +22,23 @@
 - Tree Shaking - remove unused codes
 - Different dev and prod builds
 
-/*
-*Header
-  - Logo
-  - NavItems
-*Body
-  - Search
-  - RestaurantContainer
-    - RestaurantCard 
-      - Image
-      - Name, Star rating, Cuisines, Delivery Time
-*Footer
-  - Copyright
-  - Links
-  - Address
-  - Contact
-*/
+/\*
+\*Header
+
+- Logo
+- NavItems
+  \*Body
+- Search
+- RestaurantContainer - RestaurantCard - Image - Name, Star rating, Cuisines, Delivery Time
+  \*Footer
+- Copyright
+- Links
+- Address
+- Contact
+  \*/
+
+# REACT HOOKS
+
+- Normal Javascript functions with special use-case
+- useState hook:
+  - When the state variable changes React re-renders the components

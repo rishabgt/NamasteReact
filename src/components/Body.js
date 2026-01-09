@@ -10,7 +10,7 @@ const Body = () => {
     <div className="body">
       <div className="filter">
         <button
-          className="btn-filter"
+          className="btn btn-filter"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
               (items) => items.info.avgRating > 4.1
@@ -19,6 +19,14 @@ const Body = () => {
           }}
         >
           Top Rated Restaurants
+        </button>
+        <button
+          className=" btn btn-reset"
+          onClick={() => {
+            setListOfRestaurants(resData);
+          }}
+        >
+          Reset Filters
         </button>
       </div>
       <div className="res-container">
