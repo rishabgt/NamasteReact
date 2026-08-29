@@ -27,6 +27,14 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search-container">
+          <input
+            type="text"
+            placeholder="Search restaurants..."
+            className="search-box"
+          />
+          <button className="btn btn-search">Search</button>
+        </div>
         <button
           className="btn btn-filter"
           onClick={() => {
@@ -41,6 +49,7 @@ const Body = () => {
         <button
           className=" btn btn-reset"
           onClick={() => {
+            fetchData();
             setListOfRestaurants(listOfRestaurants);
           }}
         >
