@@ -1,19 +1,37 @@
 import { useEffect, useState } from "react";
-import resData from "../utils/data";
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
-  const [listOfRestaurants, setListOfRestaurants] = useState(resData);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
-  console.log(resData);
-  return (
+  useEffect(() => {
+    // console.log("Use effect called");
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    const data = await fetch(
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.594566&sortBy=RELEVANCE&page_type=DESKTOP_WEB_LISTING",
+    );
+    const json = await data.json();
+    console.log(json);
+    setListOfRestaurants(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || [],
+    );
+  };
+
+  return listOfRestaurants.length === 0 ? (
+    <Shimmer />
+  ) : (
     <div className="body">
       <div className="filter">
         <button
           className="btn btn-filter"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (items) => items.info.avgRating > 4.1
+              (items) => items.info.avgRating > 4.1,
             );
             setListOfRestaurants(filteredList);
           }}
@@ -23,7 +41,7 @@ const Body = () => {
         <button
           className=" btn btn-reset"
           onClick={() => {
-            setListOfRestaurants(resData);
+            setListOfRestaurants(listOfRestaurants);
           }}
         >
           Reset Filters
