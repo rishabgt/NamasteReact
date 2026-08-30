@@ -4,7 +4,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
-
+  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
@@ -19,6 +19,10 @@ const Body = () => {
     const json = await data.json();
     console.log(json);
     setListOfRestaurants(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants || [],
+    );
+    setFilteredRestaurants(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants || [],
     );
@@ -45,7 +49,7 @@ const Body = () => {
                   .toLowerCase()
                   .includes(searchText.toLowerCase()),
               );
-              setListOfRestaurants(filteredList);
+              setFilteredRestaurants(filteredList);
             }}
           >
             Search
@@ -57,7 +61,7 @@ const Body = () => {
             const filteredList = listOfRestaurants.filter(
               (items) => items.info.avgRating > 4.1,
             );
-            setListOfRestaurants(filteredList);
+            setFilteredRestaurants(filteredList);
           }}
         >
           Top Rated Restaurants
@@ -66,14 +70,14 @@ const Body = () => {
           className=" btn btn-reset"
           onClick={() => {
             fetchData();
-            setListOfRestaurants(listOfRestaurants);
+            setFilteredRestaurants(listOfRestaurants);
           }}
         >
           Reset Filters
         </button>
       </div>
       <div className="res-container">
-        {listOfRestaurants.map((items, index) => (
+        {filteredRestaurants.map((items, index) => (
           <RestaurantCard key={index} resData={items} /> //Using index as key for simplicity,
           //but its a bad practice in real apps
         ))}
