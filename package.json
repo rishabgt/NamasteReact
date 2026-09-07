@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Namaste react test package",
   "scripts": {
-    "start": "parcel index.html -p 8000",
-    "build": "parcel build index.html",
+    "start": "vite --port 8000",
+    "build": "vite build",
     "test": "jest"
   },
   "repository": {
@@ -24,14 +24,16 @@
   },
   "homepage": "https://github.com/rishabgt/NamasteReact#readme",
   "devDependencies": {
-    "parcel": "^2.12.0",
-    "process": "^0.11.10"
+    "@vitejs/plugin-react": "^6.1.1",
+    "process": "^0.11.10",
+    "vite": "^8.2.2"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router": "^8.3.1"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }
