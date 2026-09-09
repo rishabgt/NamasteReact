@@ -1,0 +1,1320 @@
+{
+  "restaurants": [
+    {
+      "id": "502957",
+      "name": "Andhra Gunpowder",
+      "imageId": "bs9qgsy25pn07pzn6xx1",
+      "menu": [
+        {
+          "id": "menu_502957_1",
+          "name": "Andhra Chicken Biryani",
+          "description": "Spicy Andhra style chicken biryani with aromatic rice",
+          "price": 280,
+          "isVeg": false,
+          "category": "Biryani"
+        },
+        {
+          "id": "menu_502957_2",
+          "name": "Mutton Biryani",
+          "description": "Tender mutton cooked in traditional Andhra spices",
+          "price": 350,
+          "isVeg": false,
+          "category": "Biryani"
+        },
+        {
+          "id": "menu_502957_3",
+          "name": "Andhra Chicken Curry",
+          "description": "Authentic Andhra style chicken curry",
+          "price": 250,
+          "isVeg": false,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_502957_4",
+          "name": "Gongura Chicken",
+          "description": "Chicken cooked with tangy gongura leaves",
+          "price": 270,
+          "isVeg": false,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_502957_5",
+          "name": "Andhra Fish Curry",
+          "description": "Fresh fish in traditional Andhra masala",
+          "price": 300,
+          "isVeg": false,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_502957_6",
+          "name": "Gutthi Vankaya",
+          "description": "Stuffed brinjal curry - Andhra specialty",
+          "price": 180,
+          "isVeg": true,
+          "category": "Vegetarian"
+        },
+        {
+          "id": "menu_502957_7",
+          "name": "Pulihora",
+          "description": "Andhra style tamarind rice",
+          "price": 120,
+          "isVeg": true,
+          "category": "Rice"
+        },
+        {
+          "id": "menu_502957_8",
+          "name": "Rava Dosa",
+          "description": "Crispy semolina dosa with chutney",
+          "price": 110,
+          "isVeg": true,
+          "category": "South Indian"
+        }
+      ]
+    },
+    {
+      "id": "342643",
+      "name": "The Pizza Bakery",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/10/db11f499-724b-4aa5-86ef-139c36d477fd_342643.JPG",
+      "menu": [
+        {
+          "id": "menu_342643_1",
+          "name": "Margherita Pizza",
+          "description": "Tomato sauce, fresh mozzarella, basil",
+          "price": 350,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_342643_2",
+          "name": "Pepperoni Pizza",
+          "description": "Tomato sauce, mozzarella, spicy pepperoni",
+          "price": 450,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_342643_3",
+          "name": "Truffle Mushroom Pizza",
+          "description": "Wild mushrooms, truffle oil, mozzarella",
+          "price": 650,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_342643_4",
+          "name": "Four Cheese Pizza",
+          "description": "Mozzarella, gorgonzola, parmesan, ricotta",
+          "price": 550,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_342643_5",
+          "name": "Spaghetti Carbonara",
+          "description": "Eggs, pecorino cheese, pancetta",
+          "price": 480,
+          "isVeg": false,
+          "category": "Pasta"
+        },
+        {
+          "id": "menu_342643_6",
+          "name": "Penne Arrabbiata",
+          "description": "Spicy tomato sauce with garlic and chili",
+          "price": 400,
+          "isVeg": true,
+          "category": "Pasta"
+        },
+        {
+          "id": "menu_342643_7",
+          "name": "Tiramisu",
+          "description": "Coffee-soaked ladyfingers with mascarpone",
+          "price": 300,
+          "isVeg": true,
+          "category": "Dessert"
+        },
+        {
+          "id": "menu_342643_8",
+          "name": "Chocolate Brownie",
+          "description": "Warm brownie with vanilla ice cream",
+          "price": 250,
+          "isVeg": true,
+          "category": "Dessert"
+        }
+      ]
+    },
+    {
+      "id": "667962",
+      "name": "Paris Panini",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/10/db53f58f-bbcc-4aab-a16b-8c7c5d0b84a1_667962.jpg",
+      "menu": [
+        {
+          "id": "menu_667962_1",
+          "name": "Classic Chicken Panini",
+          "description": "Grilled chicken with pesto and mozzarella",
+          "price": 320,
+          "isVeg": false,
+          "category": "Sandwich"
+        },
+        {
+          "id": "menu_667962_2",
+          "name": "Veggie Delight Sandwich",
+          "description": "Fresh vegetables with hummus and avocado",
+          "price": 280,
+          "isVeg": true,
+          "category": "Sandwich"
+        },
+        {
+          "id": "menu_667962_3",
+          "name": "Pesto Pasta Salad",
+          "description": "Penne pasta with pesto and cherry tomatoes",
+          "price": 250,
+          "isVeg": true,
+          "category": "Salad"
+        },
+        {
+          "id": "menu_667962_4",
+          "name": "Grilled Chicken Wrap",
+          "description": "Chicken with lettuce and garlic aioli",
+          "price": 300,
+          "isVeg": false,
+          "category": "Wrap"
+        },
+        {
+          "id": "menu_667962_5",
+          "name": "Falafel Wrap",
+          "description": "Crispy falafel with tahini sauce",
+          "price": 270,
+          "isVeg": true,
+          "category": "Wrap"
+        },
+        {
+          "id": "menu_667962_6",
+          "name": "Mushroom & Truffle Panini",
+          "description": "Portobello mushrooms with truffle oil",
+          "price": 340,
+          "isVeg": true,
+          "category": "Sandwich"
+        },
+        {
+          "id": "menu_667962_7",
+          "name": "Greek Salad",
+          "description": "Feta, olives, tomatoes, cucumbers",
+          "price": 220,
+          "isVeg": true,
+          "category": "Salad"
+        }
+      ]
+    },
+    {
+      "id": "570511",
+      "name": "Bakingo",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/1/7daa04ad-58cd-443d-af4a-ce538a58ebea_570511.JPG",
+      "menu": [
+        {
+          "id": "menu_570511_1",
+          "name": "Chocolate Truffle Cake",
+          "description": "Rich chocolate cake with truffle frosting",
+          "price": 399,
+          "isVeg": true,
+          "category": "Cake"
+        },
+        {
+          "id": "menu_570511_2",
+          "name": "Black Forest Cake",
+          "description": "Cherry and chocolate cream cake",
+          "price": 350,
+          "isVeg": true,
+          "category": "Cake"
+        },
+        {
+          "id": "menu_570511_3",
+          "name": "Red Velvet Cake",
+          "description": "Classic red velvet with cream cheese",
+          "price": 379,
+          "isVeg": true,
+          "category": "Cake"
+        },
+        {
+          "id": "menu_570511_4",
+          "name": "Pineapple Cake",
+          "description": "Light pineapple flavored cake",
+          "price": 299,
+          "isVeg": true,
+          "category": "Cake"
+        },
+        {
+          "id": "menu_570511_5",
+          "name": "Cupcake Assortment",
+          "description": "Mixed flavors - chocolate, vanilla, red velvet",
+          "price": 250,
+          "isVeg": true,
+          "category": "Cupcakes"
+        },
+        {
+          "id": "menu_570511_6",
+          "name": "Chocolate Chip Cookies",
+          "description": "Freshly baked cookies with chocolate chips",
+          "price": 150,
+          "isVeg": true,
+          "category": "Cookies"
+        },
+        {
+          "id": "menu_570511_7",
+          "name": "Brownie Box",
+          "description": "6 pieces of fudgy chocolate brownies",
+          "price": 280,
+          "isVeg": true,
+          "category": "Brownies"
+        }
+      ]
+    },
+    {
+      "id": "5938",
+      "name": "Burger King",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/b88fe4d2-557a-42a5-a801-a43a40134004_5938.jpg",
+      "menu": [
+        {
+          "id": "menu_5938_1",
+          "name": "Whopper",
+          "description": "Flame-grilled beef patty with lettuce, tomato, onion",
+          "price": 299,
+          "isVeg": false,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_5938_2",
+          "name": "Veg Whopper",
+          "description": "Plant-based patty with fresh vegetables",
+          "price": 279,
+          "isVeg": true,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_5938_3",
+          "name": "Crispy Chicken Burger",
+          "description": "Fried chicken with mayo and lettuce",
+          "price": 249,
+          "isVeg": false,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_5938_4",
+          "name": "Veggie Burger",
+          "description": "Garden veggie patty with cheese",
+          "price": 199,
+          "isVeg": true,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_5938_5",
+          "name": "French Fries",
+          "description": "Classic golden crispy fries",
+          "price": 99,
+          "isVeg": true,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_5938_6",
+          "name": "Chicken Nuggets",
+          "description": "9 pieces of crispy chicken nuggets",
+          "price": 199,
+          "isVeg": false,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_5938_7",
+          "name": "Cold Coffee",
+          "description": "Chilled coffee with cream",
+          "price": 129,
+          "isVeg": true,
+          "category": "Beverages"
+        },
+        {
+          "id": "menu_5938_8",
+          "name": "Chocolate Shake",
+          "description": "Thick chocolate milkshake",
+          "price": 149,
+          "isVeg": true,
+          "category": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": "672074",
+      "name": "Subway",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/8f9a90a5-4f89-4234-b4ed-a840580dbe52_672074.jpg",
+      "menu": [
+        {
+          "id": "menu_672074_1",
+          "name": "Chicken Teriyaki Sub",
+          "description": "Grilled chicken with teriyaki sauce",
+          "price": 299,
+          "isVeg": false,
+          "category": "Subs"
+        },
+        {
+          "id": "menu_672074_2",
+          "name": "Veggie Delite Sub",
+          "description": "Fresh garden vegetables with cheese",
+          "price": 199,
+          "isVeg": true,
+          "category": "Subs"
+        },
+        {
+          "id": "menu_672074_3",
+          "name": "Tuna Sub",
+          "description": "Tuna with mayonnaise and vegetables",
+          "price": 279,
+          "isVeg": false,
+          "category": "Subs"
+        },
+        {
+          "id": "menu_672074_4",
+          "name": "Paneer Tikka Sub",
+          "description": "Grilled paneer with mint chutney",
+          "price": 259,
+          "isVeg": true,
+          "category": "Subs"
+        },
+        {
+          "id": "menu_672074_5",
+          "name": "Chicken Tikka Sub",
+          "description": "Spiced chicken with vegetables",
+          "price": 289,
+          "isVeg": false,
+          "category": "Subs"
+        },
+        {
+          "id": "menu_672074_6",
+          "name": "Cheese & Onion Toastie",
+          "description": "Grilled cheese sandwich with onions",
+          "price": 179,
+          "isVeg": true,
+          "category": "Toasties"
+        },
+        {
+          "id": "menu_672074_7",
+          "name": "Fresh Salad Bowl",
+          "description": "Mixed greens with dressing",
+          "price": 220,
+          "isVeg": true,
+          "category": "Salads"
+        },
+        {
+          "id": "menu_672074_8",
+          "name": "Classic Cookie",
+          "description": "Freshly baked chocolate chip cookie",
+          "price": 49,
+          "isVeg": true,
+          "category": "Desserts"
+        }
+      ]
+    },
+    {
+      "id": "12808",
+      "name": "A2B - Adyar Ananda Bhavan",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/7/c5846c30-dd68-499b-9bea-44b31e595e20_12808.JPG",
+      "menu": [
+        {
+          "id": "menu_12808_1",
+          "name": "Masala Dosa",
+          "description": "Crispy dosa with potato filling",
+          "price": 110,
+          "isVeg": true,
+          "category": "Dosa"
+        },
+        {
+          "id": "menu_12808_2",
+          "name": "Idli Vada Combo",
+          "description": "2 idlis and 1 vada with chutney",
+          "price": 120,
+          "isVeg": true,
+          "category": "South Indian"
+        },
+        {
+          "id": "menu_12808_3",
+          "name": "Rava Onion Dosa",
+          "description": "Semolina dosa with onions",
+          "price": 130,
+          "isVeg": true,
+          "category": "Dosa"
+        },
+        {
+          "id": "menu_12808_4",
+          "name": "Uttapam",
+          "description": "Thick dosa with tomato and onion topping",
+          "price": 125,
+          "isVeg": true,
+          "category": "Dosa"
+        },
+        {
+          "id": "menu_12808_5",
+          "name": "Chole Bhature",
+          "description": "Spicy chickpeas with fried bread",
+          "price": 160,
+          "isVeg": true,
+          "category": "North Indian"
+        },
+        {
+          "id": "menu_12808_6",
+          "name": "Paneer Butter Masala",
+          "description": "Paneer in rich tomato gravy",
+          "price": 220,
+          "isVeg": true,
+          "category": "North Indian"
+        },
+        {
+          "id": "menu_12808_7",
+          "name": "Gulab Jamun",
+          "description": "Deep fried milk balls in sugar syrup",
+          "price": 80,
+          "isVeg": true,
+          "category": "Sweets"
+        },
+        {
+          "id": "menu_12808_8",
+          "name": "Rasmalai",
+          "description": "Chenna balls in creamy milk",
+          "price": 90,
+          "isVeg": true,
+          "category": "Sweets"
+        },
+        {
+          "id": "menu_12808_9",
+          "name": "Special Thali",
+          "description": "Complete meal with rice, curry, dal, dessert",
+          "price": 250,
+          "isVeg": true,
+          "category": "Thali"
+        }
+      ]
+    },
+    {
+      "id": "43836",
+      "name": "McDonald's",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/18/06ff4c44-9050-468a-8188-fc7f7adee87b_43836.JPG",
+      "menu": [
+        {
+          "id": "menu_43836_1",
+          "name": "Big Mac",
+          "description": "Double beef patty with special sauce",
+          "price": 299,
+          "isVeg": false,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_43836_2",
+          "name": "McChicken",
+          "description": "Crispy chicken burger with mayo",
+          "price": 249,
+          "isVeg": false,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_43836_3",
+          "name": "Veg McBurger",
+          "description": "Vegetarian burger with cheese",
+          "price": 179,
+          "isVeg": true,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_43836_4",
+          "name": "McAloo Tikki",
+          "description": "Spicy potato patty burger",
+          "price": 159,
+          "isVeg": true,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_43836_5",
+          "name": "Chicken McNuggets",
+          "description": "10 pieces with your choice of sauce",
+          "price": 220,
+          "isVeg": false,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_43836_6",
+          "name": "French Fries",
+          "description": "World famous Mcdonald's fries",
+          "price": 99,
+          "isVeg": true,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_43836_7",
+          "name": "McFlurry",
+          "description": "Vanilla ice cream with toppings",
+          "price": 149,
+          "isVeg": true,
+          "category": "Desserts"
+        },
+        {
+          "id": "menu_43836_8",
+          "name": "Chocolate Shake",
+          "description": "Thick chocolate milkshake",
+          "price": 179,
+          "isVeg": true,
+          "category": "Beverages"
+        },
+        {
+          "id": "menu_43836_9",
+          "name": "Happy Meal",
+          "description": "Burger + fries + drink + toy",
+          "price": 250,
+          "isVeg": true,
+          "category": "Meals"
+        }
+      ]
+    },
+    {
+      "id": "10575",
+      "name": "Pizza Hut",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/15/6f892224-627c-4702-89e5-430fb3637e58_10575.JPG",
+      "menu": [
+        {
+          "id": "menu_10575_1",
+          "name": "Margherita Pizza",
+          "description": "Classic cheese and tomato pizza",
+          "price": 299,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_10575_2",
+          "name": "Pepperoni Pizza",
+          "description": "Pepperoni with mozzarella cheese",
+          "price": 399,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_10575_3",
+          "name": "Farmhouse Pizza",
+          "description": "Mixed vegetables with cheese",
+          "price": 349,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_10575_4",
+          "name": "Chicken Supreme",
+          "description": "Grilled chicken with vegetables",
+          "price": 429,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_10575_5",
+          "name": "Garlic Breadsticks",
+          "description": "With cheese dip",
+          "price": 149,
+          "isVeg": true,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_10575_6",
+          "name": "Pasta",
+          "description": "Choose your pasta and sauce",
+          "price": 249,
+          "isVeg": true,
+          "category": "Pasta"
+        }
+      ]
+    },
+    {
+      "id": "588619",
+      "name": "KFC",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/1/e0118a61-20df-4f76-9d44-28839ff54a71_588619.JPG",
+      "menu": [
+        {
+          "id": "menu_588619_1",
+          "name": "Fried Chicken Bucket",
+          "description": "8 pieces of signature fried chicken",
+          "price": 499,
+          "isVeg": false,
+          "category": "Buckets"
+        },
+        {
+          "id": "menu_588619_2",
+          "name": "Chicken Popcorn",
+          "description": "Bite-sized chicken popcorn",
+          "price": 179,
+          "isVeg": false,
+          "category": "Snacks"
+        },
+        {
+          "id": "menu_588619_3",
+          "name": "Chicken Zinger Burger",
+          "description": "Crispy chicken with lettuce and mayo",
+          "price": 279,
+          "isVeg": false,
+          "category": "Burgers"
+        },
+        {
+          "id": "menu_588619_4",
+          "name": "Spicy Chicken Wings",
+          "description": "6 spicy chicken wings",
+          "price": 249,
+          "isVeg": false,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_588619_5",
+          "name": "French Fries",
+          "description": "Classic crispy fries",
+          "price": 99,
+          "isVeg": true,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_588619_6",
+          "name": "Chicken Strip Combo",
+          "description": "3 strips with fries and drink",
+          "price": 299,
+          "isVeg": false,
+          "category": "Meals"
+        }
+      ]
+    },
+    {
+      "id": "23847",
+      "name": "Domino's Pizza",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/3/de14d839-9c85-448e-9c4d-4d8cd14415ce_23847.JPG",
+      "menu": [
+        {
+          "id": "menu_23847_1",
+          "name": "Margherita Pizza",
+          "description": "Cheese and tomato sauce",
+          "price": 199,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_23847_2",
+          "name": "Farmhouse Pizza",
+          "description": "Mixed vegetables with cheese",
+          "price": 299,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_23847_3",
+          "name": "Pepperoni Pizza",
+          "description": "Spicy pepperoni with cheese",
+          "price": 349,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_23847_4",
+          "name": "Chicken Sausage Pizza",
+          "description": "Chicken sausage with peppers",
+          "price": 379,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_23847_5",
+          "name": "Garlic Bread",
+          "description": "With cheese dipping sauce",
+          "price": 129,
+          "isVeg": true,
+          "category": "Sides"
+        },
+        {
+          "id": "menu_23847_6",
+          "name": "Pasta",
+          "description": "Pasta with choice of sauce",
+          "price": 199,
+          "isVeg": true,
+          "category": "Pasta"
+        },
+        {
+          "id": "menu_23847_7",
+          "name": "Lava Cake",
+          "description": "Warm chocolate cake",
+          "price": 99,
+          "isVeg": true,
+          "category": "Desserts"
+        },
+        {
+          "id": "menu_23847_8",
+          "name": "Combo Meal",
+          "description": "Pizza + garlic bread + drink",
+          "price": 399,
+          "isVeg": true,
+          "category": "Meals"
+        }
+      ]
+    },
+    {
+      "id": "426730",
+      "name": "Theobroma",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/2/f2220c5b-e903-46bc-be1e-0ad593c08c23_426730.JPG",
+      "menu": [
+        {
+          "id": "menu_426730_1",
+          "name": "Chocolate Tart",
+          "description": "Crispy tart with rich chocolate ganache",
+          "price": 250,
+          "isVeg": true,
+          "category": "Tarts"
+        },
+        {
+          "id": "menu_426730_2",
+          "name": "Red Velvet Cupcake",
+          "description": "Red velvet with cream cheese frosting",
+          "price": 180,
+          "isVeg": true,
+          "category": "Cupcakes"
+        },
+        {
+          "id": "menu_426730_3",
+          "name": "Cheesecake",
+          "description": "Classic New York cheesecake",
+          "price": 300,
+          "isVeg": true,
+          "category": "Cakes"
+        },
+        {
+          "id": "menu_426730_4",
+          "name": "Chocolate Brownie",
+          "description": "Fudgy chocolate brownie",
+          "price": 200,
+          "isVeg": true,
+          "category": "Brownies"
+        },
+        {
+          "id": "menu_426730_5",
+          "name": "Coffee Cake",
+          "description": "Moist coffee flavored cake",
+          "price": 280,
+          "isVeg": true,
+          "category": "Cakes"
+        },
+        {
+          "id": "menu_426730_6",
+          "name": "Cream Puff",
+          "description": "Pastry filled with cream",
+          "price": 150,
+          "isVeg": true,
+          "category": "Pastries"
+        },
+        {
+          "id": "menu_426730_7",
+          "name": "Cold Brew Coffee",
+          "description": "Smooth cold brew",
+          "price": 180,
+          "isVeg": true,
+          "category": "Beverages"
+        },
+        {
+          "id": "menu_426730_8",
+          "name": "Hot Chocolate",
+          "description": "Rich hot chocolate with cream",
+          "price": 200,
+          "isVeg": true,
+          "category": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": "755276",
+      "name": "La Pino'z Pizza",
+      "imageId": "f44bc9708c514cd2dd6ae0d8b4677214",
+      "menu": [
+        {
+          "id": "menu_755276_1",
+          "name": "Margherita Pizza",
+          "description": "Tomato sauce with mozzarella",
+          "price": 150,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_755276_2",
+          "name": "Farmhouse Pizza",
+          "description": "Fresh vegetables and cheese",
+          "price": 220,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_755276_3",
+          "name": "Chicken Pizza",
+          "description": "Grilled chicken with vegetables",
+          "price": 280,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_755276_4",
+          "name": "Spicy Veg Pizza",
+          "description": "Spicy vegetables with chili",
+          "price": 240,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_755276_5",
+          "name": "Cheese Pasta",
+          "description": "Pasta with cheese sauce",
+          "price": 180,
+          "isVeg": true,
+          "category": "Pasta"
+        },
+        {
+          "id": "menu_755276_6",
+          "name": "Garlic Breadsticks",
+          "description": "With cheese dip",
+          "price": 120,
+          "isVeg": true,
+          "category": "Sides"
+        }
+      ]
+    },
+    {
+      "id": "810943",
+      "name": "Baskin Robbins",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/d6c0d33a-3eb8-431e-b560-bc0f43befdfa_810943.JPG",
+      "menu": [
+        {
+          "id": "menu_810943_1",
+          "name": "Chocolate Chip Ice Cream",
+          "description": "Classic chocolate with chocolate chips",
+          "price": 150,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_810943_2",
+          "name": "Strawberry Ice Cream",
+          "description": "Fresh strawberry ice cream",
+          "price": 150,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_810943_3",
+          "name": "Mint Chocolate Chip",
+          "description": "Mint ice cream with chocolate chips",
+          "price": 160,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_810943_4",
+          "name": "Pralines & Cream",
+          "description": "Vanilla with praline pecans",
+          "price": 160,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_810943_5",
+          "name": "Chocolate Sundae",
+          "description": "Chocolate ice cream with toppings",
+          "price": 200,
+          "isVeg": true,
+          "category": "Sundaes"
+        },
+        {
+          "id": "menu_810943_6",
+          "name": "Strawberry Milkshake",
+          "description": "Thick strawberry shake",
+          "price": 180,
+          "isVeg": true,
+          "category": "Shakes"
+        },
+        {
+          "id": "menu_810943_7",
+          "name": "Ice Cream Cake",
+          "description": "Celebration ice cream cake",
+          "price": 450,
+          "isVeg": true,
+          "category": "Cakes"
+        }
+      ]
+    },
+    {
+      "id": "696230",
+      "name": "ITC Master Chef Creations",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/8/27/16fe38ea-e481-4abf-a7a8-4233cb637150_696230.JPG",
+      "menu": [
+        {
+          "id": "menu_696230_1",
+          "name": "Butter Chicken",
+          "description": "Rich, creamy tomato-based curry",
+          "price": 350,
+          "isVeg": false,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_696230_2",
+          "name": "Dal Makhani",
+          "description": "Slow-cooked black lentils",
+          "price": 250,
+          "isVeg": true,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_696230_3",
+          "name": "Paneer Tikka Masala",
+          "description": "Grilled paneer in spicy gravy",
+          "price": 300,
+          "isVeg": true,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_696230_4",
+          "name": "Biryani",
+          "description": "Fragrant rice with meat",
+          "price": 380,
+          "isVeg": false,
+          "category": "Biryani"
+        },
+        {
+          "id": "menu_696230_5",
+          "name": "Kebabs Platter",
+          "description": "Assorted grilled kebabs",
+          "price": 400,
+          "isVeg": false,
+          "category": "Kebabs"
+        },
+        {
+          "id": "menu_696230_6",
+          "name": "Naan",
+          "description": "Tandoori bread",
+          "price": 50,
+          "isVeg": true,
+          "category": "Breads"
+        },
+        {
+          "id": "menu_696230_7",
+          "name": "Gulab Jamun",
+          "description": "Traditional Indian dessert",
+          "price": 100,
+          "isVeg": true,
+          "category": "Desserts"
+        }
+      ]
+    },
+    {
+      "id": "696231",
+      "name": "ITC Sunfeast Baked Creations",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/8/a6d300ef-703a-45f4-8b82-b646f7f20e07_696231.jpg",
+      "menu": [
+        {
+          "id": "menu_696231_1",
+          "name": "Chocolate Cake",
+          "description": "Rich chocolate celebration cake",
+          "price": 450,
+          "isVeg": true,
+          "category": "Cakes"
+        },
+        {
+          "id": "menu_696231_2",
+          "name": "Pineapple Cake",
+          "description": "Light pineapple cake",
+          "price": 400,
+          "isVeg": true,
+          "category": "Cakes"
+        },
+        {
+          "id": "menu_696231_3",
+          "name": "Pastry Box",
+          "description": "Assorted 6 pastries",
+          "price": 350,
+          "isVeg": true,
+          "category": "Pastries"
+        },
+        {
+          "id": "menu_696231_4",
+          "name": "Cookies Jar",
+          "description": "Mix of butter and chocolate cookies",
+          "price": 280,
+          "isVeg": true,
+          "category": "Cookies"
+        },
+        {
+          "id": "menu_696231_5",
+          "name": "Brownie Box",
+          "description": "6 chocolate brownies",
+          "price": 320,
+          "isVeg": true,
+          "category": "Brownies"
+        },
+        {
+          "id": "menu_696231_6",
+          "name": "Muffin Box",
+          "description": "Assorted 6 muffins",
+          "price": 300,
+          "isVeg": true,
+          "category": "Muffins"
+        }
+      ]
+    },
+    {
+      "id": "53503",
+      "name": "Brik Oven - Original Sourdough Pizzas",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/4/aaf347eb-bcb8-48a8-9a4e-a14b22fbc3d1_53503.jpg",
+      "menu": [
+        {
+          "id": "menu_53503_1",
+          "name": "Margherita Sourdough",
+          "description": "Sourdough base with tomato sauce, mozzarella, basil",
+          "price": 380,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_53503_2",
+          "name": "Pepperoni Sourdough",
+          "description": "Sourdough with pepperoni and cheese",
+          "price": 480,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_53503_3",
+          "name": "Quattro Formaggi",
+          "description": "Four cheese sourdough pizza",
+          "price": 520,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_53503_4",
+          "name": "Truffle Pizza",
+          "description": "Truffle oil, mushrooms, mozzarella",
+          "price": 620,
+          "isVeg": true,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_53503_5",
+          "name": "Chicken & Pesto Pizza",
+          "description": "Grilled chicken with pesto sauce",
+          "price": 550,
+          "isVeg": false,
+          "category": "Pizza"
+        },
+        {
+          "id": "menu_53503_6",
+          "name": "Caesar Salad",
+          "description": "Classic Caesar salad with chicken",
+          "price": 280,
+          "isVeg": false,
+          "category": "Salads"
+        }
+      ]
+    },
+    {
+      "id": "396751",
+      "name": "Shravan Specials by Lunchbox",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/29/96baa6b5-9262-4741-8688-17c9039dd887_396751.JPG",
+      "menu": [
+        {
+          "id": "menu_396751_1",
+          "name": "Veg Thali",
+          "description": "Complete meal with rice, curry, dal, vegetables",
+          "price": 180,
+          "isVeg": true,
+          "category": "Thali"
+        },
+        {
+          "id": "menu_396751_2",
+          "name": "North Indian Thali",
+          "description": "Paneer, dal, roti, rice, dessert",
+          "price": 200,
+          "isVeg": true,
+          "category": "Thali"
+        },
+        {
+          "id": "menu_396751_3",
+          "name": "Paneer Butter Masala",
+          "description": "Paneer in rich tomato gravy",
+          "price": 220,
+          "isVeg": true,
+          "category": "Curry"
+        },
+        {
+          "id": "menu_396751_4",
+          "name": "Dal Tadka",
+          "description": "Yellow dal with tempering",
+          "price": 150,
+          "isVeg": true,
+          "category": "Dal"
+        },
+        {
+          "id": "menu_396751_5",
+          "name": "Veg Biryani",
+          "description": "Vegetable biryani with raita",
+          "price": 190,
+          "isVeg": true,
+          "category": "Biryani"
+        },
+        {
+          "id": "menu_396751_6",
+          "name": "Roti",
+          "description": "Whole wheat bread",
+          "price": 25,
+          "isVeg": true,
+          "category": "Breads"
+        },
+        {
+          "id": "menu_396751_7",
+          "name": "Gulab Jamun",
+          "description": "2 pieces of gulab jamun",
+          "price": 60,
+          "isVeg": true,
+          "category": "Desserts"
+        }
+      ]
+    },
+    {
+      "id": "29673",
+      "name": "Natural Ice Cream",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/21/2dc3b714-f0b8-4a86-8be9-73fb095102fc_29673.jpg",
+      "menu": [
+        {
+          "id": "menu_29673_1",
+          "name": "Mango Ice Cream",
+          "description": "Fresh mango flavor",
+          "price": 130,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_2",
+          "name": "Chocolate Ice Cream",
+          "description": "Rich chocolate flavor",
+          "price": 130,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_3",
+          "name": "Vanilla Ice Cream",
+          "description": "Classic vanilla with real beans",
+          "price": 120,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_4",
+          "name": "Strawberry Ice Cream",
+          "description": "Fresh strawberry flavor",
+          "price": 140,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_5",
+          "name": "Sitaphal Ice Cream",
+          "description": "Custard apple flavor",
+          "price": 150,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_6",
+          "name": "Chikoo Ice Cream",
+          "description": "Sapodilla fruit flavor",
+          "price": 140,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_29673_7",
+          "name": "Ice Cream Sundae",
+          "description": "With chocolate sauce and nuts",
+          "price": 180,
+          "isVeg": true,
+          "category": "Sundaes"
+        },
+        {
+          "id": "menu_29673_8",
+          "name": "Milkshake",
+          "description": "Thick shake in your choice of flavor",
+          "price": 160,
+          "isVeg": true,
+          "category": "Shakes"
+        }
+      ]
+    },
+    {
+      "id": "86653",
+      "name": "NIC Ice Creams",
+      "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/16/be75e931-cbae-42ff-ab75-cdcf87b199c2_86653.JPG",
+      "menu": [
+        {
+          "id": "menu_86653_1",
+          "name": "Chocolate Ice Cream",
+          "description": "Belgian chocolate ice cream",
+          "price": 120,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_2",
+          "name": "Vanilla Ice Cream",
+          "description": "Premium vanilla",
+          "price": 110,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_3",
+          "name": "Strawberry Ice Cream",
+          "description": "Fresh strawberry",
+          "price": 130,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_4",
+          "name": "Butterscotch Ice Cream",
+          "description": "With butterscotch chips",
+          "price": 130,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_5",
+          "name": "Mango Ice Cream",
+          "description": "Alphonso mango flavor",
+          "price": 140,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_6",
+          "name": "Choco Chip Cookie Dough",
+          "description": "Cookie dough with chocolate chips",
+          "price": 150,
+          "isVeg": true,
+          "category": "Ice Cream"
+        },
+        {
+          "id": "menu_86653_7",
+          "name": "Ice Cream Cone",
+          "description": "Single scoop in a cone",
+          "price": 80,
+          "isVeg": true,
+          "category": "Cones"
+        },
+        {
+          "id": "menu_86653_8",
+          "name": "Family Pack",
+          "description": "500ml of your choice",
+          "price": 350,
+          "isVeg": true,
+          "category": "Family Packs"
+        }
+      ]
+    }
+  ]
+}
