@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
-
+import { BACKEND_URL } from "../utils/constants";
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
@@ -14,19 +14,11 @@ const Body = () => {
 
   const fetchData = async () => {
     //URL:https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.594566&sortBy=RELEVANCE&page_type=DESKTOP_WEB_LISTING
-    const data = await fetch(
-      "https://corsproxy.io/?key=webdemo1&url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D12.9715987%26lng%3D77.594566%26sortBy%3DRELEVANCE%26page_type%3DDESKTOP_WEB_LISTING",
-    );
+    const data = await fetch(BACKEND_URL + "/api/restaurants");
     const json = await data.json();
     console.log(json);
-    setListOfRestaurants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants || [],
-    );
-    setFilteredRestaurants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants || [],
-    );
+    setListOfRestaurants(json?.data?.restaurants || []);
+    setFilteredRestaurants(json?.data?.restaurants || []);
   };
 
   return listOfRestaurants.length === 0 ? (
@@ -46,9 +38,7 @@ const Body = () => {
             className="btn btn-search"
             onClick={() => {
               const filteredList = listOfRestaurants.filter((items) =>
-                items.info.name
-                  .toLowerCase()
-                  .includes(searchText.toLowerCase()),
+                items.name.toLowerCase().includes(searchText.toLowerCase()),
               );
               setFilteredRestaurants(filteredList);
             }}
@@ -60,7 +50,7 @@ const Body = () => {
           className="btn btn-filter"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (items) => items.info.avgRating > 4.1,
+              (items) => items.avgRating > 4.1,
             );
             setFilteredRestaurants(filteredList);
           }}

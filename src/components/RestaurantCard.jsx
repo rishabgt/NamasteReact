@@ -7,21 +7,16 @@ const styleCard = {
 };
 
 const RestaurantCard = (props) => {
-  const {resData} = props;
-  const {cloudinaryImageId, name, cuisines, avgRating, sla} = resData.info;
+  const { resData } = props;
+  const { cloudinaryImageId, name, cuisines, avgRating, deliveryTime } =
+    resData;
   return (
     <div className="res-card" style={styleCard}>
-      <img
-        className="res-logo"
-        alt={name}
-        src={
-          CDN_URL + cloudinaryImageId
-        }
-      />
+      <img className="res-logo" alt={name} src={CDN_URL + cloudinaryImageId} />
       <h3>{name}</h3>
       <div>{cuisines.join(", ")}</div>
       <div>{avgRating} stars</div>
-      <div>{sla.deliveryTime} mins</div>
+      <div>{deliveryTime} mins</div>
     </div>
   );
 };
